@@ -1,3 +1,128 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Xify – Manage Money Smarter</title>
+    <meta name="description" content="Xify helps you track expenses, budgets, categories, calendars, export, and mileage. 100% on‑device privacy.">
+    <link rel="icon" type="image/jpeg" href="/favIcon.jpeg" />
+    <link rel="apple-touch-icon" href="/assets/appIcon.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img class="app-icon" src="/assets/appIcon.png" alt="Xify app icon" width="48" height="48" />
+          <span class="brand-name">Xify</span>
+        </div>
+        <nav class="nav">
+          <a href="#features">Features</a>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Track, plan, and review your money</h1>
+            <p>Budgets, categories, calendar sync, mileage tracking, and detailed summaries — all in one modern app.</p>
+            <div class="hero-cta">
+              <a class="btn primary" href="https://apps.apple.com/app/id6744364683" target="_blank" rel="noopener">Download on the App Store</a>
+              <a class="btn ghost" href="#features">Explore features</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-number" aria-label="one hundred">100</div>
+                <div class="stat-label">% Private • On‑device</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-art">
+            <img class="hero-image float" src="/assets/Hero.jpg" alt="Xify hero" />
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <h2 class="section-title">Features</h2>
+          <div class="grid">
+            <article class="card fade-up" style="--d:0s">
+              <img src="/assets/Bank Transactions.jpg" alt="Bank Transactions" />
+              <h3>Bank Transactions</h3>
+              <p>Stay on top of every transaction and reconcile quickly.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.05s">
+              <img src="/assets/Income &amp; Budget.jpg" alt="Income and Budget" />
+              <h3>Income &amp; Budget</h3>
+              <p>Plan monthly budgets and see your income at a glance.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.1s">
+              <img src="/assets/Categories.jpg" alt="Categories" />
+              <h3>Categories</h3>
+              <p>Organize spending with flexible, easy‑to‑tune categories.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.15s">
+              <img src="/assets/Calendar.jpg" alt="Calendar" />
+              <h3>Calendar</h3>
+              <p>See upcoming bills and past activity on a clean calendar.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.2s">
+              <img src="/assets/Sync Calendar.jpg" alt="Sync Calendar" />
+              <h3>Sync Calendar</h3>
+              <p>Keep your finances in sync across your calendars.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.25s">
+              <img src="/assets/Track Mileage.jpg" alt="Track Mileage" />
+              <h3>Track Mileage</h3>
+              <p>Log business mileage accurately and effortlessly.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.3s">
+              <img src="/assets/Review Summarry.jpg" alt="Review Summary" />
+              <h3>Review Summary</h3>
+              <p>Monthly insights that make trends immediately clear.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.35s">
+              <img src="/assets/Expenses.jpg" alt="Expenses" />
+              <h3>Expenses</h3>
+              <p>Record expenses in seconds and classify with a tap.</p>
+            </article>
+            <article class="card fade-up" style="--d:0.4s">
+              <img src="/assets/Export.jpg" alt="Export" />
+              <h3>Export</h3>
+              <p>Export your data when you need it in common formats.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-inner">
+          <div class="cta-copy">
+            <h2>Ready to take control?</h2>
+            <p>Download Xify on your iPhone or iPad and get started in minutes.</p>
+          </div>
+          <a class="btn primary large" href="https://apps.apple.com/app/id6744364683" target="_blank" rel="noopener">Get Xify on the App Store</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="left">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </div>
+        <div class="right">© <span id="y"></span> Xify</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
